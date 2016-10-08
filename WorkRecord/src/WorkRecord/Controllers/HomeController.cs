@@ -17,7 +17,7 @@ namespace WorkRecord.Controllers
                 context.Add(entry);
                 context.SaveChanges();
             }
-            ViewData["Message"] = "Sucdess";
+            ViewData["Message"] = "Success";
             return View();
         }
     }
